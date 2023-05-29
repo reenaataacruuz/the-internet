@@ -1,8 +1,7 @@
 Dado('que eu acesse a tela de Context contextMenu') do
-  find(:xpath, '//a[text()="Context Menu"]').click
+  @ContextMenu.tela_context_menu()
 end
 
 Então('eu clico no box do Context') do
-  areaContext = page.driver.browser.find_element(:id, "hot-spot")
-  page.driver.browser.action.context_click(areaContext).perform
+  @ContextMenu.encontra_context_menu()
 end
