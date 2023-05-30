@@ -1,4 +1,4 @@
-class Disappear
+class DisappearPage
   include Capybara::DSL
 
   def tela_disappear

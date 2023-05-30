@@ -1,4 +1,4 @@
-class ContextMenu
+class ContextMenuPage
   include Capybara::DSL
 
   def tela_context_menu
