@@ -1,4 +1,4 @@
-# The-Internet
+# Projeto: Automatizando algumas pages do The-Internet
 
 O site The Internet, possui alguns exemplos de funcionalidade perfeitas para testes de aceite automatizados. 
 Site oficional: http://the-internet.herokuapp.com
