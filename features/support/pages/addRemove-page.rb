@@ -1,4 +1,4 @@
-class AddRemove
+class AddRemovePage
   def tela_addRemove
     find(:xpath, '//a[text()="Add/Remove Elements"]').click
   end

@@ -5,8 +5,10 @@ Before do
   visit "./"
   @LoginPage = LoginPage.new
   @CheckboxPage = CheckboxPage.new
-  @ContextMenu = ContextMenu.new
-  @Disappear = Disappear.new
-  @DragDrop = DragDrop.new
-  @AddRemove = AddRemove.new
+  @ContextMenuPage = ContextMenuPage.new
+  @DisappearPage = DisappearPage.new
+  @DragDropPage = DragDropPage.new
+  @AddRemovePage = AddRemovePage.new
+  @IndexPage = IndexPage.new
+  @DropDownPage = DropDownPage.new
 end

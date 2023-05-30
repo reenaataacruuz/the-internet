@@ -1,4 +1,4 @@
-class DragDrop
+class DragDropPage
   include Capybara::DSL
 
   def tela_dragDrop
